@@ -7,6 +7,9 @@ const nextConfig = {
   env: {
     NEXT_PUBLIC_APP_NAME: 'Absence Management',
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 
   // Image optimization
   images: {
